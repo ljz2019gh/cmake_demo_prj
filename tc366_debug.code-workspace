@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "launch": {
+    "configurations": [
+      {
+        "type": "winidea-debug",
+        "request": "launch",
+        "name": "winIDEA Download"
+      },
+      {
+        "type": "winidea-debug",
+        "request": "attach",
+        "name": "winIDEA Attach"
+      },
+      {
+        "type": "winidea-debug",
+        "request": "launch",
+        "name": "winIDEA Reset",
+        "loadSymbolsOnly": true
+      }
+    ]
+  },
+  "settings": {
+    "winidea-debug.workspace": "D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\tc366_debug.xjrf",
+    "files.associations": {
+      "main.h": "c",
+      "test.h": "c",
+      "cpu.h": "c"
+    }
+  }
+}

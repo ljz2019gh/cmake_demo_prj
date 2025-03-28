@@ -1,0 +1,39 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "demo",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "toolchainFile": "${sourceDir}/${presetName}.cmake",
+      "cmakeExecutable": "$env{WINIDEA_CMAKE_ROOT}/$env{WINIDEA_CMAKE_EXE}",
+      "cacheVariables": {
+        "CMAKE_MAKE_PROGRAM": "$env{WINIDEA_NINJA_ROOT}/$env{WINIDEA_NINJA_EXE}",
+        "TOOLSET_PATH": "C:\\TASKING\\TriCore_v6.3r1"
+      },
+      "environment": {
+        "ISYSTEM_PACKAGES": "C:\\Users\\xz518\\AppData\\Local\\iSYSTEM\\Packages",
+        "WINIDEA_CMAKE_ROOT": "c:\\Tools\\cmake-3.29.3-windows-x86_64",
+        "WINIDEA_CMAKE_EXE": "bin/cmake.exe",
+        "WINIDEA_NINJA_ROOT": "c:\\Tools\\ninja-win",
+        "WINIDEA_NINJA_EXE": "ninja.exe",
+        "WINIDEA_GDB_ROOT": "c:\\Tools\\x86_64-13.2.0-release-win32-seh-msvcrt-rt_v11-rev0\\mingw64\\bin",
+        "WINIDEA_GDB_EXE": "gdb.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "demo_build",
+      "configurePreset": "demo",
+      "targets": [
+        "demo"
+      ]
+    }
+  ]
+}

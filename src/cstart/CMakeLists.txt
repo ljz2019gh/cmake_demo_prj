@@ -1,13 +1,13 @@
-project(itest)
+project(cstart)
 
 add_library(${PROJECT_NAME}
 STATIC
-test.c
+cstart.c
 )
 
 set_target_properties(${PROJECT_NAME}
   PROPERTIES
-  OUTPUT_NAME "itest"
+  OUTPUT_NAME "cstart"
 )
 
 set(CMAKE_LINK_LIBRARY_SUFFIX ".lib")

@@ -1,0 +1,6 @@
+# ninja log v6
+4	640	7648376318561599	src/CMakeFiles/demo.dir/main.c.obj	4e677e611e2e45c
+25	901	7648376318771041	src/CMakeFiles/demo.dir/cpu/cpu.c.obj	d090a9ec5e414d7f
+34	976	7648376318870758	src/CMakeFiles/demo.dir/itest/test.c.obj	471f0fd761e50e3
+44	1024	7648376318960515	src/CMakeFiles/demo.dir/cstart/cstart.c.obj	ba7513f43dd5c7bd
+1024	1572	7648376328764292	D:/Repo/cmake_demo_prj/cmake_demo_prj/debug/demo.elf	32432966d8e9b145

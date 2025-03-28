@@ -1,0 +1,1630 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Generic -  - TriCore
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/cctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags:  
+      
+      The output was:
+      0
+      + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --fp-model=+float -g3 -O0 -o cc3496a.src CMakeCCompilerId.c
+      + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o cc3496c.o cc3496a.src
+      + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ltc -o CMakeCCompilerId.elf -dtc1766.lsl -dextmem.lsl -D__CPU__=tc1766 -D__PROC_TC1766__ --map-file cc3496c.o -lcs_fpu -lfp_fpu -lrt -LC:\\TASKING\\TriCore_v6.3r1\\ctc\\lib/tc13
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.elf"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.map"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.mdf"
+      
+      The C compiler identification is Tasking, found in:
+        D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.elf
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --fp-model=+float -g3 -O0 -o cc15356a.src main.c
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o cc15356c.o cc15356a.src
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ltc -o nologo.elf -dtc1766.lsl -dextmem.lsl -D__CPU__=tc1766 -D__PROC_TC1766__ --map-file cc15356c.o -lcs_fpu -lfp_fpu -lrt -LC:\\TASKING\\TriCore_v6.3r1\\ctc\\lib/tc13
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      astc E101: unknown option: "-qversion"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+      Usage: astc [options] file
+      Summary of options:
+        -? --help[=<item>,...]             show option summary, or extended info
+                 options                     show extended option descriptions
+        -D --define=<symbol>[=<value>]     define preprocessor macro, optionally
+                                           assign the given value
+        -E --preprocess                    run the assembler as a preprocessor only
+        -H --include-file=<file>           include the given file at the start of the
+                                           input file
+        -I --include-directory=<path>      additional search path for include files
+        -L --list-format=<flag>,...        list file formatting options (default:
+                                           dEGiMnPqrVwXyZ)
+             0                               alias for -LDEGILMNPQRSVWXYZ
+             1                               alias for -Ldegilmnpqrsvwxyz
+                                           lowercase/+ enables, uppercase/- disables:
+             d/D +/-section                  section directives
+             e/E +/-symbol                   symbol definition directives
+             g/G +/-generic-expansion        generic instruction expansion
+             i/I +/-generic                  generic instructions
+             m/M +/-macro                    macro definitions
+             n/N +/-empty-line               empty source lines and comment lines
+             p/P +/-conditional              conditional assembly
+             q/Q +/-equate                   assembler equate and set directives
+             r/R +/-relocations              relocation characters ('r')
+             v/V +/-equate-values            assembler equate and set values
+             w/W +/-wrap-lines               wrapped source lines
+             x/X +/-macro-expansion          macro expansions
+             y/Y +/-cycle-count              cycle counts
+             z/Z +/-define-expansion         define expansions
+        -O --optimize=<flag>,...           assembler optimizations (default: gs)
+                                           lowercase/+ enables, uppercase/- disables:
+             g/G +/-generics                 generic instructions
+             s/S +/-instr-size               instruction size
+        -V --version                       display version header only
+        -c --case-insensitive              case insensitive identifiers
+        -f --option-file=<file>,...        read command line information from file
+        -g --debug-info[=<flag>,...]       store debug information in the object file
+                                           (default: AhLS)
+                                           lowercase/+ enables, uppercase/- disables:
+             a/A +/-asm                      assembly source line information
+             h/H +/-hll                      pass HLL debug information
+             l/L +/-local                    local symbol debug information
+             s/S +/-smart                    smart debug information
+        -g --debug-info                    alias for -gs
+        -i --symbol-scope=<scope>          set default symbol scope (default: l)
+             g   global                      global by default
+             l   local                       local by default
+        -k --keep-output-files             keep output file after errors
+        -l --list-file[=<file>]            generate list file
+        -m --preprocessor-type=<type>      select the type of preprocessor (default:
+                                           t)
+             n   none                        no preprocessor
+             t   tasking                     TASKING preprocessor
+        -o --output=<file>                 name the object file
+        -t --section-info[=<flag>,...]     display section information (default: CL)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-console                  display on the console
+             l/L +/-list                     write to the list file
+        -t --section-info                  alias for --section-info=cl
+        -w --no-warnings[=<nr>,...]        suppress all warnings, or a specific one
+           --check                         check the source, but don't generate code
+           --concatenate-sections          set section attribute concatenate
+                                           (default=separate)
+           --core=<value>                  the core architecture the code is intended
+                                           for (default is TC1.3) (default: tc1.3)
+                 tc1.3                       TriCore1.3   architecture
+                 tc1.3.1                     TriCore1.3.1 architecture, TriCore1.3.1
+                                             instructions are allowed.
+                 tc1.6                       TriCore1.6   architecture, TriCore1.6
+                                             instructions are allowed.
+                 tc1.6.2                     TriCore1.6.2 architecture, TriCore1.6.2
+                                             instructions are allowed.
+                 tc1.6.x                     TriCore1.6.X architecture, TriCore1.6.X
+                                             instructions are allowed.
+           --dep-file[=<file>]             also generate dependencies for make
+           --diag=[<fmt>:]{all|<nr>,...}   display a description of the given
+                                           diagnostic using the specified format:
+                                           html, rtf or text (default)
+           --emit-locals[=<flag>,...]      emit local symbols to object file
+                                           (default: ES)
+                                           lowercase/+ enables, uppercase/- disables:
+             e/E +/-equs                     emit local EQU symbols
+             s/S +/-symbols                  emit local non-EQU symbols (labels)
+           --emit-locals                   alias for --emit-locals=s
+           --error-file[=<file>]           redirect all diagnostic messages
+           --error-limit=<nr>              set maximum number of errors (default: 42)
+           --kanji                         support for Shift JIS Kanji in strings
+           --make-target=<name>            specify target name for --dep-file output
+           --mmu-present                   allow use of MMU instructions
+           --no-fpu                        disable FPU instructions
+           --no-notes                      do not generate a note section in the
+                                           object file
+           --page-length=<length>          set page length of the list file
+           --page-width=<width>            set page width of the list file
+           --require-end                   mandatory .END directive
+           --silicon-bug=<arg>,...         Enable silicon bug workaround
+                 all-tc1130                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc116
+                 all-tc1164                  alias for --silicon-bug=all-tc1766
+                 all-tc1166                  alias for --silicon-bug=all-tc1766
+                 all-tc131                   alias for --silicon-bug=cpu-tc105,
+                                             cpu-tc106,cpu-tc108,cpu-tc109
+                 all-tc1736                  alias for --silicon-bug=all-tc131
+                 all-tc1762                  alias for --silicon-bug=all-tc1766
+                 all-tc1764                  alias for --silicon-bug=all-tc1766
+                 all-tc1766                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109
+                 all-tc1767                  alias for --silicon-bug=all-tc131
+                 all-tc1792                  alias for --silicon-bug=all-tc1796
+                 all-tc1796                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109,cpu-tc116
+                 all-tc1797                  alias for --silicon-bug=all-tc131
+                 cpu-tc013                   check for CPU_TC.013
+                 cpu-tc048                   check for CPU_TC.048
+                 cpu-tc060                   check for CPU_TC.060
+                 cpu-tc065                   check for CPU_TC.065
+                 cpu-tc068                   check for CPU_TC.068
+                 cpu-tc069                   check for CPU_TC.069
+                 cpu-tc070                   check for CPU_TC.070
+                 cpu-tc071                   check for CPU_TC.071
+                 cpu-tc072                   check for CPU_TC.072
+                 cpu-tc074                   workaround for CPU_TC.074
+                 cpu-tc081                   check for CPU_TC.081
+                 cpu-tc082                   check for CPU_TC.082
+                 cpu-tc083                   check for CPU_TC.083
+                 cpu-tc094                   check for CPU_TC.094
+                 cpu-tc095                   check for CPU_TC.095
+                 cpu-tc096                   check for CPU_TC.096
+                 cpu-tc104                   check for CPU_TC.104
+                 cpu-tc105                   check for CPU_TC.105
+                 cpu-tc106                   check for CPU_TC.106
+                 cpu-tc108                   check for CPU_TC.108
+                 cpu-tc109                   check for CPU_TC.109
+                 cpu-tc116                   check for CPU_TC.116
+           --user-mode=<value>             the user mode the processor will run in
+                                           (default is kernel mode) (default: kernel)
+                 kernel                      kernel supervisor mode
+                 user-0                      user-0 unprivileged mode
+                 user-1                      user-1 privileged mode
+           --warn-access-interrupt-enable  Warn if there is access of the Interrupt
+                                           Enable bit (default=false)
+           --warnings-as-errors[=<nr>,...] treat all or specific warnings as errors
+      
+      Long options, starting with --, may be abbreviated.  The argument separator
+      character '=' is only used for long options, and should be omitted when the
+      option argument is specified separately.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+      astc E101: unknown option: "-h"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+      Usage: astc [options] file
+      Summary of options:
+        -? --help[=<item>,...]             show option summary, or extended info
+                 options                     show extended option descriptions
+        -D --define=<symbol>[=<value>]     define preprocessor macro, optionally
+                                           assign the given value
+        -E --preprocess                    run the assembler as a preprocessor only
+        -H --include-file=<file>           include the given file at the start of the
+                                           input file
+        -I --include-directory=<path>      additional search path for include files
+        -L --list-format=<flag>,...        list file formatting options (default:
+                                           dEGiMnPqrVwXyZ)
+             0                               alias for -LDEGILMNPQRSVWXYZ
+             1                               alias for -Ldegilmnpqrsvwxyz
+                                           lowercase/+ enables, uppercase/- disables:
+             d/D +/-section                  section directives
+             e/E +/-symbol                   symbol definition directives
+             g/G +/-generic-expansion        generic instruction expansion
+             i/I +/-generic                  generic instructions
+             m/M +/-macro                    macro definitions
+             n/N +/-empty-line               empty source lines and comment lines
+             p/P +/-conditional              conditional assembly
+             q/Q +/-equate                   assembler equate and set directives
+             r/R +/-relocations              relocation characters ('r')
+             v/V +/-equate-values            assembler equate and set values
+             w/W +/-wrap-lines               wrapped source lines
+             x/X +/-macro-expansion          macro expansions
+             y/Y +/-cycle-count              cycle counts
+             z/Z +/-define-expansion         define expansions
+        -O --optimize=<flag>,...           assembler optimizations (default: gs)
+                                           lowercase/+ enables, uppercase/- disables:
+             g/G +/-generics                 generic instructions
+             s/S +/-instr-size               instruction size
+        -V --version                       display version header only
+        -c --case-insensitive              case insensitive identifiers
+        -f --option-file=<file>,...        read command line information from file
+        -g --debug-info[=<flag>,...]       store debug information in the object file
+                                           (default: AhLS)
+                                           lowercase/+ enables, uppercase/- disables:
+             a/A +/-asm                      assembly source line information
+             h/H +/-hll                      pass HLL debug information
+             l/L +/-local                    local symbol debug information
+             s/S +/-smart                    smart debug information
+        -g --debug-info                    alias for -gs
+        -i --symbol-scope=<scope>          set default symbol scope (default: l)
+             g   global                      global by default
+             l   local                       local by default
+        -k --keep-output-files             keep output file after errors
+        -l --list-file[=<file>]            generate list file
+        -m --preprocessor-type=<type>      select the type of preprocessor (default:
+                                           t)
+             n   none                        no preprocessor
+             t   tasking                     TASKING preprocessor
+        -o --output=<file>                 name the object file
+        -t --section-info[=<flag>,...]     display section information (default: CL)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-console                  display on the console
+             l/L +/-list                     write to the list file
+        -t --section-info                  alias for --section-info=cl
+        -w --no-warnings[=<nr>,...]        suppress all warnings, or a specific one
+           --check                         check the source, but don't generate code
+           --concatenate-sections          set section attribute concatenate
+                                           (default=separate)
+           --core=<value>                  the core architecture the code is intended
+                                           for (default is TC1.3) (default: tc1.3)
+                 tc1.3                       TriCore1.3   architecture
+                 tc1.3.1                     TriCore1.3.1 architecture, TriCore1.3.1
+                                             instructions are allowed.
+                 tc1.6                       TriCore1.6   architecture, TriCore1.6
+                                             instructions are allowed.
+                 tc1.6.2                     TriCore1.6.2 architecture, TriCore1.6.2
+                                             instructions are allowed.
+                 tc1.6.x                     TriCore1.6.X architecture, TriCore1.6.X
+                                             instructions are allowed.
+           --dep-file[=<file>]             also generate dependencies for make
+           --diag=[<fmt>:]{all|<nr>,...}   display a description of the given
+                                           diagnostic using the specified format:
+                                           html, rtf or text (default)
+           --emit-locals[=<flag>,...]      emit local symbols to object file
+                                           (default: ES)
+                                           lowercase/+ enables, uppercase/- disables:
+             e/E +/-equs                     emit local EQU symbols
+             s/S +/-symbols                  emit local non-EQU symbols (labels)
+           --emit-locals                   alias for --emit-locals=s
+           --error-file[=<file>]           redirect all diagnostic messages
+           --error-limit=<nr>              set maximum number of errors (default: 42)
+           --kanji                         support for Shift JIS Kanji in strings
+           --make-target=<name>            specify target name for --dep-file output
+           --mmu-present                   allow use of MMU instructions
+           --no-fpu                        disable FPU instructions
+           --no-notes                      do not generate a note section in the
+                                           object file
+           --page-length=<length>          set page length of the list file
+           --page-width=<width>            set page width of the list file
+           --require-end                   mandatory .END directive
+           --silicon-bug=<arg>,...         Enable silicon bug workaround
+                 all-tc1130                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc116
+                 all-tc1164                  alias for --silicon-bug=all-tc1766
+                 all-tc1166                  alias for --silicon-bug=all-tc1766
+                 all-tc131                   alias for --silicon-bug=cpu-tc105,
+                                             cpu-tc106,cpu-tc108,cpu-tc109
+                 all-tc1736                  alias for --silicon-bug=all-tc131
+                 all-tc1762                  alias for --silicon-bug=all-tc1766
+                 all-tc1764                  alias for --silicon-bug=all-tc1766
+                 all-tc1766                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109
+                 all-tc1767                  alias for --silicon-bug=all-tc131
+                 all-tc1792                  alias for --silicon-bug=all-tc1796
+                 all-tc1796                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109,cpu-tc116
+                 all-tc1797                  alias for --silicon-bug=all-tc131
+                 cpu-tc013                   check for CPU_TC.013
+                 cpu-tc048                   check for CPU_TC.048
+                 cpu-tc060                   check for CPU_TC.060
+                 cpu-tc065                   check for CPU_TC.065
+                 cpu-tc068                   check for CPU_TC.068
+                 cpu-tc069                   check for CPU_TC.069
+                 cpu-tc070                   check for CPU_TC.070
+                 cpu-tc071                   check for CPU_TC.071
+                 cpu-tc072                   check for CPU_TC.072
+                 cpu-tc074                   workaround for CPU_TC.074
+                 cpu-tc081                   check for CPU_TC.081
+                 cpu-tc082                   check for CPU_TC.082
+                 cpu-tc083                   check for CPU_TC.083
+                 cpu-tc094                   check for CPU_TC.094
+                 cpu-tc095                   check for CPU_TC.095
+                 cpu-tc096                   check for CPU_TC.096
+                 cpu-tc104                   check for CPU_TC.104
+                 cpu-tc105                   check for CPU_TC.105
+                 cpu-tc106                   check for CPU_TC.106
+                 cpu-tc108                   check for CPU_TC.108
+                 cpu-tc109                   check for CPU_TC.109
+                 cpu-tc116                   check for CPU_TC.116
+           --user-mode=<value>             the user mode the processor will run in
+                                           (default is kernel mode) (default: kernel)
+                 kernel                      kernel supervisor mode
+                 user-0                      user-0 unprivileged mode
+                 user-1                      user-1 privileged mode
+           --warn-access-interrupt-enable  Warn if there is access of the Interrupt
+                                           Enable bit (default=false)
+           --warnings-as-errors[=<nr>,...] treat all or specific warnings as errors
+      
+      Long options, starting with --, may be abbreviated.  The argument separator
+      character '=' is only used for long options, and should be omitted when the
+      option argument is specified separately.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+      Usage: astc [options] file
+      Summary of options:
+        -? --help[=<item>,...]             show option summary, or extended info
+                 options                     show extended option descriptions
+        -D --define=<symbol>[=<value>]     define preprocessor macro, optionally
+                                           assign the given value
+        -E --preprocess                    run the assembler as a preprocessor only
+        -H --include-file=<file>           include the given file at the start of the
+                                           input file
+        -I --include-directory=<path>      additional search path for include files
+        -L --list-format=<flag>,...        list file formatting options (default:
+                                           dEGiMnPqrVwXyZ)
+             0                               alias for -LDEGILMNPQRSVWXYZ
+             1                               alias for -Ldegilmnpqrsvwxyz
+                                           lowercase/+ enables, uppercase/- disables:
+             d/D +/-section                  section directives
+             e/E +/-symbol                   symbol definition directives
+             g/G +/-generic-expansion        generic instruction expansion
+             i/I +/-generic                  generic instructions
+             m/M +/-macro                    macro definitions
+             n/N +/-empty-line               empty source lines and comment lines
+             p/P +/-conditional              conditional assembly
+             q/Q +/-equate                   assembler equate and set directives
+             r/R +/-relocations              relocation characters ('r')
+             v/V +/-equate-values            assembler equate and set values
+             w/W +/-wrap-lines               wrapped source lines
+             x/X +/-macro-expansion          macro expansions
+             y/Y +/-cycle-count              cycle counts
+             z/Z +/-define-expansion         define expansions
+        -O --optimize=<flag>,...           assembler optimizations (default: gs)
+                                           lowercase/+ enables, uppercase/- disables:
+             g/G +/-generics                 generic instructions
+             s/S +/-instr-size               instruction size
+        -V --version                       display version header only
+        -c --case-insensitive              case insensitive identifiers
+        -f --option-file=<file>,...        read command line information from file
+        -g --debug-info[=<flag>,...]       store debug information in the object file
+                                           (default: AhLS)
+                                           lowercase/+ enables, uppercase/- disables:
+             a/A +/-asm                      assembly source line information
+             h/H +/-hll                      pass HLL debug information
+             l/L +/-local                    local symbol debug information
+             s/S +/-smart                    smart debug information
+        -g --debug-info                    alias for -gs
+        -i --symbol-scope=<scope>          set default symbol scope (default: l)
+             g   global                      global by default
+             l   local                       local by default
+        -k --keep-output-files             keep output file after errors
+        -l --list-file[=<file>]            generate list file
+        -m --preprocessor-type=<type>      select the type of preprocessor (default:
+                                           t)
+             n   none                        no preprocessor
+             t   tasking                     TASKING preprocessor
+        -o --output=<file>                 name the object file
+        -t --section-info[=<flag>,...]     display section information (default: CL)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-console                  display on the console
+             l/L +/-list                     write to the list file
+        -t --section-info                  alias for --section-info=cl
+        -w --no-warnings[=<nr>,...]        suppress all warnings, or a specific one
+           --check                         check the source, but don't generate code
+           --concatenate-sections          set section attribute concatenate
+                                           (default=separate)
+           --core=<value>                  the core architecture the code is intended
+                                           for (default is TC1.3) (default: tc1.3)
+                 tc1.3                       TriCore1.3   architecture
+                 tc1.3.1                     TriCore1.3.1 architecture, TriCore1.3.1
+                                             instructions are allowed.
+                 tc1.6                       TriCore1.6   architecture, TriCore1.6
+                                             instructions are allowed.
+                 tc1.6.2                     TriCore1.6.2 architecture, TriCore1.6.2
+                                             instructions are allowed.
+                 tc1.6.x                     TriCore1.6.X architecture, TriCore1.6.X
+                                             instructions are allowed.
+           --dep-file[=<file>]             also generate dependencies for make
+           --diag=[<fmt>:]{all|<nr>,...}   display a description of the given
+                                           diagnostic using the specified format:
+                                           html, rtf or text (default)
+           --emit-locals[=<flag>,...]      emit local symbols to object file
+                                           (default: ES)
+                                           lowercase/+ enables, uppercase/- disables:
+             e/E +/-equs                     emit local EQU symbols
+             s/S +/-symbols                  emit local non-EQU symbols (labels)
+           --emit-locals                   alias for --emit-locals=s
+           --error-file[=<file>]           redirect all diagnostic messages
+           --error-limit=<nr>              set maximum number of errors (default: 42)
+           --kanji                         support for Shift JIS Kanji in strings
+           --make-target=<name>            specify target name for --dep-file output
+           --mmu-present                   allow use of MMU instructions
+           --no-fpu                        disable FPU instructions
+           --no-notes                      do not generate a note section in the
+                                           object file
+           --page-length=<length>          set page length of the list file
+           --page-width=<width>            set page width of the list file
+           --require-end                   mandatory .END directive
+           --silicon-bug=<arg>,...         Enable silicon bug workaround
+                 all-tc1130                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc116
+                 all-tc1164                  alias for --silicon-bug=all-tc1766
+                 all-tc1166                  alias for --silicon-bug=all-tc1766
+                 all-tc131                   alias for --silicon-bug=cpu-tc105,
+                                             cpu-tc106,cpu-tc108,cpu-tc109
+                 all-tc1736                  alias for --silicon-bug=all-tc131
+                 all-tc1762                  alias for --silicon-bug=all-tc1766
+                 all-tc1764                  alias for --silicon-bug=all-tc1766
+                 all-tc1766                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109
+                 all-tc1767                  alias for --silicon-bug=all-tc131
+                 all-tc1792                  alias for --silicon-bug=all-tc1796
+                 all-tc1796                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109,cpu-tc116
+                 all-tc1797                  alias for --silicon-bug=all-tc131
+                 cpu-tc013                   check for CPU_TC.013
+                 cpu-tc048                   check for CPU_TC.048
+                 cpu-tc060                   check for CPU_TC.060
+                 cpu-tc065                   check for CPU_TC.065
+                 cpu-tc068                   check for CPU_TC.068
+                 cpu-tc069                   check for CPU_TC.069
+                 cpu-tc070                   check for CPU_TC.070
+                 cpu-tc071                   check for CPU_TC.071
+                 cpu-tc072                   check for CPU_TC.072
+                 cpu-tc074                   workaround for CPU_TC.074
+                 cpu-tc081                   check for CPU_TC.081
+                 cpu-tc082                   check for CPU_TC.082
+                 cpu-tc083                   check for CPU_TC.083
+                 cpu-tc094                   check for CPU_TC.094
+                 cpu-tc095                   check for CPU_TC.095
+                 cpu-tc096                   check for CPU_TC.096
+                 cpu-tc104                   check for CPU_TC.104
+                 cpu-tc105                   check for CPU_TC.105
+                 cpu-tc106                   check for CPU_TC.106
+                 cpu-tc108                   check for CPU_TC.108
+                 cpu-tc109                   check for CPU_TC.109
+                 cpu-tc116                   check for CPU_TC.116
+           --user-mode=<value>             the user mode the processor will run in
+                                           (default is kernel mode) (default: kernel)
+                 kernel                      kernel supervisor mode
+                 user-0                      user-0 unprivileged mode
+                 user-1                      user-1 privileged mode
+           --warn-access-interrupt-enable  Warn if there is access of the Interrupt
+                                           Enable bit (default=false)
+           --warnings-as-errors[=<nr>,...] treat all or specific warnings as errors
+      
+      Long options, starting with --, may be abbreviated.  The argument separator
+      character '=' is only used for long options, and should be omitted when the
+      option argument is specified separately.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+      Usage: astc [options] file
+      Summary of options:
+        -? --help[=<item>,...]             show option summary, or extended info
+                 options                     show extended option descriptions
+        -D --define=<symbol>[=<value>]     define preprocessor macro, optionally
+                                           assign the given value
+        -E --preprocess                    run the assembler as a preprocessor only
+        -H --include-file=<file>           include the given file at the start of the
+                                           input file
+        -I --include-directory=<path>      additional search path for include files
+        -L --list-format=<flag>,...        list file formatting options (default:
+                                           dEGiMnPqrVwXyZ)
+             0                               alias for -LDEGILMNPQRSVWXYZ
+             1                               alias for -Ldegilmnpqrsvwxyz
+                                           lowercase/+ enables, uppercase/- disables:
+             d/D +/-section                  section directives
+             e/E +/-symbol                   symbol definition directives
+             g/G +/-generic-expansion        generic instruction expansion
+             i/I +/-generic                  generic instructions
+             m/M +/-macro                    macro definitions
+             n/N +/-empty-line               empty source lines and comment lines
+             p/P +/-conditional              conditional assembly
+             q/Q +/-equate                   assembler equate and set directives
+             r/R +/-relocations              relocation characters ('r')
+             v/V +/-equate-values            assembler equate and set values
+             w/W +/-wrap-lines               wrapped source lines
+             x/X +/-macro-expansion          macro expansions
+             y/Y +/-cycle-count              cycle counts
+             z/Z +/-define-expansion         define expansions
+        -O --optimize=<flag>,...           assembler optimizations (default: gs)
+                                           lowercase/+ enables, uppercase/- disables:
+             g/G +/-generics                 generic instructions
+             s/S +/-instr-size               instruction size
+        -V --version                       display version header only
+        -c --case-insensitive              case insensitive identifiers
+        -f --option-file=<file>,...        read command line information from file
+        -g --debug-info[=<flag>,...]       store debug information in the object file
+                                           (default: AhLS)
+                                           lowercase/+ enables, uppercase/- disables:
+             a/A +/-asm                      assembly source line information
+             h/H +/-hll                      pass HLL debug information
+             l/L +/-local                    local symbol debug information
+             s/S +/-smart                    smart debug information
+        -g --debug-info                    alias for -gs
+        -i --symbol-scope=<scope>          set default symbol scope (default: l)
+             g   global                      global by default
+             l   local                       local by default
+        -k --keep-output-files             keep output file after errors
+        -l --list-file[=<file>]            generate list file
+        -m --preprocessor-type=<type>      select the type of preprocessor (default:
+                                           t)
+             n   none                        no preprocessor
+             t   tasking                     TASKING preprocessor
+        -o --output=<file>                 name the object file
+        -t --section-info[=<flag>,...]     display section information (default: CL)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-console                  display on the console
+             l/L +/-list                     write to the list file
+        -t --section-info                  alias for --section-info=cl
+        -w --no-warnings[=<nr>,...]        suppress all warnings, or a specific one
+           --check                         check the source, but don't generate code
+           --concatenate-sections          set section attribute concatenate
+                                           (default=separate)
+           --core=<value>                  the core architecture the code is intended
+                                           for (default is TC1.3) (default: tc1.3)
+                 tc1.3                       TriCore1.3   architecture
+                 tc1.3.1                     TriCore1.3.1 architecture, TriCore1.3.1
+                                             instructions are allowed.
+                 tc1.6                       TriCore1.6   architecture, TriCore1.6
+                                             instructions are allowed.
+                 tc1.6.2                     TriCore1.6.2 architecture, TriCore1.6.2
+                                             instructions are allowed.
+                 tc1.6.x                     TriCore1.6.X architecture, TriCore1.6.X
+                                             instructions are allowed.
+           --dep-file[=<file>]             also generate dependencies for make
+           --diag=[<fmt>:]{all|<nr>,...}   display a description of the given
+                                           diagnostic using the specified format:
+                                           html, rtf or text (default)
+           --emit-locals[=<flag>,...]      emit local symbols to object file
+                                           (default: ES)
+                                           lowercase/+ enables, uppercase/- disables:
+             e/E +/-equs                     emit local EQU symbols
+             s/S +/-symbols                  emit local non-EQU symbols (labels)
+           --emit-locals                   alias for --emit-locals=s
+           --error-file[=<file>]           redirect all diagnostic messages
+           --error-limit=<nr>              set maximum number of errors (default: 42)
+           --kanji                         support for Shift JIS Kanji in strings
+           --make-target=<name>            specify target name for --dep-file output
+           --mmu-present                   allow use of MMU instructions
+           --no-fpu                        disable FPU instructions
+           --no-notes                      do not generate a note section in the
+                                           object file
+           --page-length=<length>          set page length of the list file
+           --page-width=<width>            set page width of the list file
+           --require-end                   mandatory .END directive
+           --silicon-bug=<arg>,...         Enable silicon bug workaround
+                 all-tc1130                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc116
+                 all-tc1164                  alias for --silicon-bug=all-tc1766
+                 all-tc1166                  alias for --silicon-bug=all-tc1766
+                 all-tc131                   alias for --silicon-bug=cpu-tc105,
+                                             cpu-tc106,cpu-tc108,cpu-tc109
+                 all-tc1736                  alias for --silicon-bug=all-tc131
+                 all-tc1762                  alias for --silicon-bug=all-tc1766
+                 all-tc1764                  alias for --silicon-bug=all-tc1766
+                 all-tc1766                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109
+                 all-tc1767                  alias for --silicon-bug=all-tc131
+                 all-tc1792                  alias for --silicon-bug=all-tc1796
+                 all-tc1796                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc071,cpu-tc072,
+                                             cpu-tc074,cpu-tc081,cpu-tc082,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109,cpu-tc116
+                 all-tc1797                  alias for --silicon-bug=all-tc131
+                 cpu-tc013                   check for CPU_TC.013
+                 cpu-tc048                   check for CPU_TC.048
+                 cpu-tc060                   check for CPU_TC.060
+                 cpu-tc065                   check for CPU_TC.065
+                 cpu-tc068                   check for CPU_TC.068
+                 cpu-tc069                   check for CPU_TC.069
+                 cpu-tc070                   check for CPU_TC.070
+                 cpu-tc071                   check for CPU_TC.071
+                 cpu-tc072                   check for CPU_TC.072
+                 cpu-tc074                   workaround for CPU_TC.074
+                 cpu-tc081                   check for CPU_TC.081
+                 cpu-tc082                   check for CPU_TC.082
+                 cpu-tc083                   check for CPU_TC.083
+                 cpu-tc094                   check for CPU_TC.094
+                 cpu-tc095                   check for CPU_TC.095
+                 cpu-tc096                   check for CPU_TC.096
+                 cpu-tc104                   check for CPU_TC.104
+                 cpu-tc105                   check for CPU_TC.105
+                 cpu-tc106                   check for CPU_TC.106
+                 cpu-tc108                   check for CPU_TC.108
+                 cpu-tc109                   check for CPU_TC.109
+                 cpu-tc116                   check for CPU_TC.116
+           --user-mode=<value>             the user mode the processor will run in
+                                           (default is kernel mode) (default: kernel)
+                 kernel                      kernel supervisor mode
+                 user-0                      user-0 unprivileged mode
+                 user-1                      user-1 privileged mode
+           --warn-access-interrupt-enable  Warn if there is access of the Interrupt
+                                           Enable bit (default=false)
+           --warnings-as-errors[=<nr>,...] treat all or specific warnings as errors
+      
+      Long options, starting with --, may be abbreviated.  The argument separator
+      character '=' is only used for long options, and should be omitted when the
+      option argument is specified separately.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+      astc E101: unknown option: "-ersion"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+      TASKING VX-toolset for TriCore: assembler   v6.3r1 Build 19041558
+      Copyright 2002-2019 TASKING BV              
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-xmny9j"
+      binary: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-xmny9j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Ctc1766 -v -g3 -O0 "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_LINK_SEARCH_START_STATIC: "TRUE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-xmny9j'
+        
+        Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_8df5a
+        [1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\cctc.exe   -Ctc1766 -v -g3 -O0     -v --dep-file=CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj -c C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc --dep-file=CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj.d -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --fp-model=+float -g3 -O0 -o cc2144a.src C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c\x0d
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj cc2144a.src\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Tools\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_8df5a.a && "C:/TASKING/TriCore_v6.3r1/ctc/bin/artc.exe" -r libcmTC_8df5a.a CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj && cd ."
+        artc.exe I800: creating archive libcmTC_8df5a.a\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ltc\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ltc\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-xmny9j']
+        ignore line: []
+        ignore line: [Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_8df5a]
+        ignore line: [[1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\cctc.exe   -Ctc1766 -v -g3 -O0     -v --dep-file=CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj -c C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [+ C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc --dep-file=CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj.d -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --fp-model=+float -g3 -O0 -o cc2144a.src C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c\x0d]
+        ignore line: [+ C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj cc2144a.src\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Tools\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_8df5a.a && "C:/TASKING/TriCore_v6.3r1/ctc/bin/artc.exe" -r libcmTC_8df5a.a CMakeFiles\\cmTC_8df5a.dir\\CMakeCCompilerABI.c.obj && cd ."]
+        ignore line: [artc.exe I800: creating archive libcmTC_8df5a.a\x0d]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:74 (_record_compiler_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:83 (_record_compiler_features_c)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-es00tb"
+      binary: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-es00tb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Ctc1766 -v -g3 -O0 "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_LINK_SEARCH_START_STATIC: "TRUE"
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-es00tb'
+        
+        Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_8878b
+        [1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\cctc.exe   -Ctc1766 -v -g3 -O0     --iso=11 --strict --dep-file=CMakeFiles\\cmTC_8878b.dir\\feature_tests.c.obj.d -o CMakeFiles\\cmTC_8878b.dir\\feature_tests.c.obj -c D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-es00tb\\feature_tests.c
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc --dep-file=CMakeFiles\\cmTC_8878b.dir\\feature_tests.c.obj.d -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --iso=11 --fp-model=+float -g3 -O0 -o cc18896a.src D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-es00tb\\feature_tests.c\x0d
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o CMakeFiles\\cmTC_8878b.dir\\feature_tests.c.obj cc18896a.src\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Tools\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_8878b.a && "C:/TASKING/TriCore_v6.3r1/ctc/bin/artc.exe" -r libcmTC_8878b.a CMakeFiles\\cmTC_8878b.dir\\feature_tests.c.obj && cd ."
+        artc.exe I800: creating archive libcmTC_8878b.a\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:74 (_record_compiler_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:91 (_record_compiler_features_c)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-teyfyo"
+      binary: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-teyfyo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Ctc1766 -v -g3 -O0 "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_LINK_SEARCH_START_STATIC: "TRUE"
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-teyfyo'
+        
+        Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_ec09e
+        [1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\cctc.exe   -Ctc1766 -v -g3 -O0     --iso=99 --strict --dep-file=CMakeFiles\\cmTC_ec09e.dir\\feature_tests.c.obj.d -o CMakeFiles\\cmTC_ec09e.dir\\feature_tests.c.obj -c D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teyfyo\\feature_tests.c
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc --dep-file=CMakeFiles\\cmTC_ec09e.dir\\feature_tests.c.obj.d -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --iso=99 --fp-model=+float -g3 -O0 -o cc17968a.src D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teyfyo\\feature_tests.c\x0d
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o CMakeFiles\\cmTC_ec09e.dir\\feature_tests.c.obj cc17968a.src\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Tools\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_ec09e.a && "C:/TASKING/TriCore_v6.3r1/ctc/bin/artc.exe" -r libcmTC_ec09e.a CMakeFiles\\cmTC_ec09e.dir\\feature_tests.c.obj && cd ."
+        artc.exe I800: creating archive libcmTC_ec09e.a\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:74 (_record_compiler_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:99 (_record_compiler_features_c)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-f3u4z4"
+      binary: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-f3u4z4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Ctc1766 -v -g3 -O0 "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_LINK_SEARCH_START_STATIC: "TRUE"
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-f3u4z4'
+        
+        Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_71f5d
+        [1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\cctc.exe   -Ctc1766 -v -g3 -O0     --iso=90 --strict --dep-file=CMakeFiles\\cmTC_71f5d.dir\\feature_tests.c.obj.d -o CMakeFiles\\cmTC_71f5d.dir\\feature_tests.c.obj -c D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3u4z4\\feature_tests.c
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc --dep-file=CMakeFiles\\cmTC_71f5d.dir\\feature_tests.c.obj.d -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 --iso=90 --fp-model=+float -g3 -O0 -o cc12164a.src D:\\Repo\\cmake_demo_prj\\cmake_demo_prj\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3u4z4\\feature_tests.c\x0d
+        + C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\astc -D__CPU__=tc1766 -D__CPU_TC1766__ --core=tc1.3 -gsl -o CMakeFiles\\cmTC_71f5d.dir\\feature_tests.c.obj cc12164a.src\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Tools\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_71f5d.a && "C:/TASKING/TriCore_v6.3r1/ctc/bin/artc.exe" -r libcmTC_71f5d.a CMakeFiles\\cmTC_71f5d.dir\\feature_tests.c.obj && cd ."
+        artc.exe I800: creating archive libcmTC_71f5d.a\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags:  
+      
+      The output was:
+      1
+      ctc E280: unknown option: "-Ctc1766"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags: -c 
+      
+      The output was:
+      1
+      ctc E200: commandline: option "-c": invalid number "CMakeCXXCompilerId.cpp"
+      ctc E280: unknown option: "-Ctc1766"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "-Ctc1766"
+      ctc E280: unknown option: "--c++"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "-Ctc1766"
+      ctc E280: unknown option: "--ec++"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "-Ctc1766"
+      ctc E280: unknown option: "--target=arm-arm-none-eabi"
+      ctc E280: unknown option: "-mcpu=cortex-m3"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: -Ctc1766;-v;-g3;-O0
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      ctc E200: commandline: option "-c": invalid number "-I__does_not_exist__"
+      ctc E280: unknown option: "-Ctc1766"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ctc E201: ["CMakeCXXCompilerId.cpp" 5/1] #error "A C compiler has been selected for C++."
+      1 errors, 0 warnings
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      ctc E200: commandline: option "-c": invalid number "CMakeCXXCompilerId.cpp"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "--c++"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "--ec++"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      ctc E280: unknown option: "--target=arm-arm-none-eabi"
+      ctc E280: unknown option: "-mcpu=cortex-m3"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/TASKING/TriCore_v6.3r1/ctc/bin/ctc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      ctc E200: commandline: option "-c": invalid number "-I__does_not_exist__"
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      ctc E280: unknown option: "-Ctc1766"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1178 (message)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/CMakeLists.txt:1 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      Usage: ctc [options] file ...
+      Summary of options:
+        --                                 stop option processing
+        -? --help[=<item>,...]             show option summary, or extended info:
+             i   intrinsics                  show the list of intrinsic functions
+             o   options                     show extended option descriptions
+             p   pragmas                     show the list of supported pragmas
+             t   typedefs                    show the list of predefined typedefs
+        -A --language[=<flag>,...]         control language extensions (default:
+                                           GKpVx)
+                                           lowercase/+ enables, uppercase/- disables:
+             g/G +/-gcc                      enable a number of gcc extensions
+             k/K +/-kanji                    support for Shift JIS Kanji in strings
+             p/P +/-comments                 // comments in ISO C90 mode
+             v/V +/-volatile                 don't optimize across volatile access
+             x/X +/-strings                  relaxed const check for string literals
+        -A --language                      alias for -AGKPVX
+        -D --define=<macro>[=<def>]        define preprocessor macro
+        -E --preprocess[=<flag>,...]       preprocess only (default: CILMP)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-comments                 keep comments
+             i/I +/-includes                 show included source files
+             l/L +/-list                     generate a list of macro definitions
+             m/M +/-make                     generate dependencies for make
+             p/P +/-noline                   strip #line source position info
+        -H --include-file=<file>,...       include file at the start of the
+                                           compilation
+        -I --include-directory=<dir>,...   add directory to include file search path
+        -N --default-near-size[=<value>]   max size (in bytes) for data elements that
+                                           are default located in __near sections
+                                           (default: 8)
+        -O --optimize[=<flag>,...]         specify optimization level (default: 2)
+             0                               alias for -OaCEFGIKLMNOPRSUVWY,-predict
+             1                               alias for -OaCefgIKLMNOPRSUVWy,+predict
+             2                               alias for -OacefgIklMnoprsUvwy,+predict
+             3                               alias for -Oacefgiklmnoprsuvwy,+predict
+                                           lowercase/+ enables, uppercase/- disables:
+             a/A +/-coalesce                 register coalescer
+             c/C +/-cse                      common subexpression elimination (PRE)
+             e/E +/-expression               expression simplification
+             f/F +/-flow                     control flow simplification
+             g/G +/-glo                      generic assembly code optimizations
+             i/I +/-inline                   automatic function inlining
+             k/K +/-schedule                 instruction scheduler
+             l/L +/-loop                     loop transformations
+             m/M +/-simd                     perform SIMD optimizations
+             n/N +/-align-loop               align loop bodies, to lower the number
+                                             of fetches.
+             o/O +/-forward                  forward store
+             p/P +/-propagate                constant propagation
+             r/R +/-compact                  code compaction (reverse inlining)
+             s/S +/-subscript                subscript strength reduction
+             u/U +/-unroll                   unroll small loops
+             v/V +/-ifconvert                convert IF statements using predicates
+             w/W +/-pipeline                 software pipelining
+             y/Y +/-peephole                 peephole optimizations
+                 +/-predict                  branch prediction
+        -O --optimize                      alias for -O2
+        -R --rename-sections[=<name>]      rename sections
+        -U --undefine=<macro>              remove preprocessor macro
+        -V --version                       display version header only
+        -Y --default-a1-size[=<value>]     max size (in bytes) for rodata elements
+                                           that are default located in __a1 sections
+                                           (default: 0)
+        -Z --default-a0-size[=<value>]     max size (in bytes) for data elements that
+                                           are default located in __a0 sections
+                                           (default: 0)
+        -c --iso=<year>                    ISO C standard (90, 99, 11) (default: 11)
+        -f --option-file=<file>,...        read options from file
+        -g --debug-info[=<flag>]           enable symbolic debug information
+             1                               emit small set of debug information
+             2                               emit default symbolic debug information
+             3                               emit full symbolic debug information
+             a   all                         alias for -g3
+             c   small                       alias for -g1
+             d   default                     alias for -g2
+        -g --debug-info                    alias for -g2
+        -k --keep-output-files             keep output file after errors
+        -n --stdout                        send output to stdout
+        -o --output-file=<file>            specify output filename
+        -p --profile[=<flags>,...]         profiling
+                                           lowercase/+ enables, uppercase/- disables:
+             b/B +/-block                    block counters
+             c/C +/-callgraph                call graph
+             f/F +/-function                 function counters
+             g                               alias for -pBcFStI
+             i/I +/-interrupt                exclude interrupt time
+             s/S +/-static                   static profile generation
+             t/T +/-time                     function timers
+        -p --profile                       alias for -pBCfSTI
+        -r --runtime[=<flag>,...]          enable run-time checks
+                                           lowercase/+ enables, uppercase/- disables:
+             b/B +/-bounds                   bounds checking
+             c/C +/-case                     report unhandled case in a switch
+             m/M +/-malloc                   malloc consistency checks
+             s/S +/-stack                    check for stack overflow
+        -r --runtime                       alias for -rbcms
+        -s --source                        merge source code with assembly output
+        -t --tradeoff=<value>              tradeoff between speed (-t0) and size
+                                           (-t4) (default: 4)
+        -u --uchar                         char defaults to unsigned
+        -v --verbose                       generate additional informational
+                                           diagnostics
+        -w --no-warnings[=<nr>[-<nr>],...] suppress all warnings, or specific ones
+           --align=<value>                 pragma align <n> (default: 0)
+           --branch-target-align           generate alignment depending on assume_if
+                                           hints
+           --cache[=<dir>]                 cache output files (default: .)
+           --cert[={all|<name>[-<name>]},...]
+                                           enable individual CERT checks
+           --check                         check the source, but don't generate code
+           --code-core-association=<value> code core association
+                 clone                       Multiple code instances each executed by
+                                             one core
+                 private0                    One code instance excuted by core 0
+                 private1                    One code instance excuted by core 1
+                 private2                    One code instance excuted by core 2
+                 private3                    One code instance excuted by core 3
+                 private4                    One code instance excuted by core 4
+                 private5                    One code instance excuted by core 5
+                 private6                    One code instance excuted by core 6
+                 private7                    One code instance excuted by core 7
+                 share                       One code instance shared between cores
+           --code-section-alignment=<value>
+                                           Align code sections (default: 2)
+           --compact-max-size=<value>      maximum size of a match (default: 200)
+           --control-flow-info             generate control flow information
+           --core=<value>                  the core architecture the code is intended
+                                           for (default: tc1.3)
+                 tc1.3                       TriCore1.3   architecture
+                 tc1.3.1                     TriCore1.3.1 architecture, TriCore1.3.1
+                                             instructions may be generated
+                 tc1.6                       TriCore1.6   architecture, TriCore1.6
+                                             instructions may be generated
+                 tc1.6.2                     TriCore1.6.2 architecture, TriCore1.6.2
+                                             instructions may be generated
+                 tc1.6.x                     TriCore1.6.x architecture, TriCore1.6.x
+                                             instructions may be generated
+           --data-core-association=<value> data core association
+                 clone                       Multiple data instances each accessed by
+                                             one core
+                 private0                    One data instance accessed by core 0
+                 private1                    One data instance accessed by core 1
+                 private2                    One data instance accessed by core 2
+                 private3                    One data instance accessed by core 3
+                 private4                    One data instance accessed by core 4
+                 private5                    One data instance accessed by core 5
+                 private6                    One data instance accessed by core 6
+                 private7                    One data instance accessed by core 7
+                 share                       One data shared between cores
+           --data-section-alignment=<value>
+                                           Align data sections (default: 0)
+           --dep-file[=<file>]             also generate dependencies for make
+           --diag=[<fmt>:]{all|<msg>[-<msg>],...}
+                                           display a description of one or more
+                                           diagnostic messages using the specified
+                                           format: html, rtf or text (default)
+           --eabi=<flag>,...               control EABI compliancy (default: bcfhnsw)
+                                           lowercase/+ enables, uppercase/- disables:
+             b/B +/-bitfield-align           base type alignment for 0-size bit-field
+             c/C +/-char-bitfield            access char bit-field as a byte
+             f/F +/-float                    allow treating 'double' as 'float'
+             h/H +/-half-word-align          allow half-word alignment
+             n/N +/-no-clear                 allow the use of option --no-clear
+             s/S +/-structure-return         allow structure-return optimization
+             w/W +/-word-struct-align        word align structures and unions larger
+                                             than or equal to 64-bit
+           --eabi-compliant                alias for --eabi=BCFHNSW
+           --error-file[=<file>]           redirect diagnostic messages to a file
+           --error-limit=<number>          set maximum number of errors (default: 42)
+           --fp-model[=<flag>,...]         floating-point model (default: cFlnrSTz)
+             0                               alias for --fp-model=CFLNRStZ (strict)
+             1                               alias for --fp-model=cFLNRSTZ (precise)
+             2                               alias for --fp-model=cFlnrSTz (fast-dp)
+             3                               alias for --fp-model=cflnrSTz (fast-sp)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-contract                 allow expression contraction
+             f/F +/-float                    treat 'double' as 'float'
+             l/L +/-fastlib                  allow less precise library functions
+             n/N +/-nonan                    allow optimizations to ignore NaN/Inf
+             r/R +/-rewrite                  allow expression rewriting
+             s/S +/-soft                     use software floating-point library
+             t/T +/-trap                     support trapping on exceptions
+             z/Z +/-negzero                  ignore sign of -0.0
+           --global-type-checking          enable global type checking
+           --immediate-in-code             encode all immediate values into
+                                           instructions
+           --indirect                      all function calls are indirect
+           --indirect-runtime              all runtime function calls are indirect
+           --inline                        enable inlining for all functions
+           --inline-max-incr=<value>       maximum size increment inlining (in %)
+                                           (default: -1)
+           --inline-max-size=<value>       maximum size for functions to always
+                                           inline (default: -1)
+           --integer-enumeration           always use 32-bit integers for enumeration
+           --loop[=<flag>,...]             control loop optimizations (default:
+                                           cfistV)
+                                           lowercase/+ enables, uppercase/- disables:
+             c/C +/-cache                    loop align for cached memory or SPRAM
+             f/F +/-fusion                   loop fusion optimization
+             i/I +/-instructions             use loop body instruction threshold
+             s/S +/-size                     use loop body size threshold
+             t/T +/-time                     use loop body cycle threshold
+             v/V +/-value                    use alignment value or memory default
+           --loop-alignment=<value>        the alignment loop bodies get (4,8, 16 or
+                                           32) (default: 32)
+           --loop-cycle-threshold=<value>  loop body cycle threshold (default: 25)
+           --loop-instruction-threshold=<value>
+                                           loop body instruction threshold (default:
+                                           25)
+           --loop-size-threshold=<value>   loop body byte size threshold (default:
+                                           75)
+           --make-target=<name>            specify target name for -Em/--dep-file
+                                           output
+           --max-call-depth=<value>        maximum call depth, default infinite
+                                           (default: -1)
+           --mil                           generate intermediate MIL file
+           --mil-split[=<file>,...]        as --mil, also split output into .ms files
+           --misrac={all|<nr>[-<nr>]},...  enable individual MISRA C checks
+           --misrac-advisory-warnings      turn advisory rule violation into warning
+           --misrac-mandatory-warnings     turn mandatory rule violation into warning
+           --misrac-required-warnings      turn required rule violation into warning
+           --misrac-version=<year>         select MISRA C version: 1998, 2004 or 2012
+                                           (default: 2004)
+           --mmu-on                        when an MMU is present this indicates if
+                                           it is used
+           --mmu-present                   indicates the presence of an MMU
+           --no-clear                      don't clear uninitialized global/static
+                                           variables
+           --no-rtlib-calls                avoid run-time library calls
+           --no-stdinc                     skip the standard include files directory
+           --object-comment=<value>        add a comment section at the end of a
+                                           module, containing the text supplied
+           --pic[=Ax/Ay]                   generate position independent code
+                                           (default: A8/A9)
+           --relax-compact-name-check      relax code compaction name check
+           --relax-overlay-name-check      relax overlay name check
+           --section-name-with-module      user section naming includes module name
+           --section-name-with-symbol      user section naming includes symbol name
+           --sfr-access-instruction=<flag>,...
+                                           control instructions used for sfr accesses
+                                           (default: S)
+                                           lowercase/+ enables, uppercase/- disables:
+             s/S +/-stt                      control the generation of the ST.T
+                                             instruction
+           --signed-bitfields              treat "int" bitfield as signed
+           --silicon-bug=<arg>,...         Enable silicon bug workaround
+                 all-tc1130                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc072,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc116
+                 all-tc1164                  alias for --silicon-bug=all-tc1766
+                 all-tc1166                  alias for --silicon-bug=all-tc1766
+                 all-tc131                   alias for --silicon-bug=cpu-tc105,
+                                             cpu-tc106,cpu-tc108,cpu-tc109
+                 all-tc1736                  alias for --silicon-bug=all-tc131
+                 all-tc1762                  alias for --silicon-bug=all-tc1766
+                 all-tc1764                  alias for --silicon-bug=all-tc1766
+                 all-tc1766                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc072,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109
+                 all-tc1767                  alias for --silicon-bug=all-tc131
+                 all-tc1792                  alias for --silicon-bug=all-tc1796
+                 all-tc1796                  alias for --silicon-bug=cpu-tc013,
+                                             cpu-tc048,cpu-tc060,cpu-tc065,cpu-tc068,
+                                             cpu-tc069,cpu-tc070,cpu-tc072,cpu-tc083,
+                                             cpu-tc094,cpu-tc095,cpu-tc096,cpu-tc104,
+                                             cpu-tc105,cpu-tc108,cpu-tc109,cpu-tc116
+                 all-tc1797                  alias for --silicon-bug=all-tc131
+                 cpu-tc013                   workaround for CPU_TC.013
+                 cpu-tc048                   workaround for CPU_TC.048
+                 cpu-tc060                   workaround for CPU_TC.060
+                 cpu-tc065                   workaround for CPU_TC.065
+                 cpu-tc068                   workaround for CPU_TC.068
+                 cpu-tc069                   workaround for CPU_TC.069
+                 cpu-tc070                   workaround for CPU_TC.070
+                 cpu-tc072                   workaround for CPU_TC.072
+                 cpu-tc083                   workaround for CPU_TC.083
+                 cpu-tc094                   workaround for CPU_TC.094
+                 cpu-tc095                   workaround for CPU_TC.095
+                 cpu-tc096                   workaround for CPU_TC.096
+                 cpu-tc103                   workaround for CPU_TC.103
+                 cpu-tc104                   workaround for CPU_TC.104
+                 cpu-tc105                   check for CPU_TC.105
+                 cpu-tc106                   check for CPU_TC.106
+                 cpu-tc108                   workaround for CPU_TC.108
+                 cpu-tc109                   workaround for CPU_TC.109
+                 cpu-tc116                   workaround for CPU_TC.116
+           --spram                         indicates whether the code generated is
+                                           expected to be in SPRAM
+           --static                        treat external definitions as "static"
+           --switch=<value>                code generation algorithm for switch
+                                           statements (default: auto)
+                 auto                        choose most optimal code
+                 jumptab                     generate jump tables
+                 linear                      use linear jump code
+                 lookup                      generate lookup tables
+           --unroll-factor=<val>           default number of times to unroll an
+                                           eligible loop (default: -1)
+           --user-mode=<value>             the user mode the processor runs in
+                                           (default is kernel mode) (default: kernel)
+                 kernel                      kernel supervisor mode
+                 user-0                      user-0 unprivileged mode
+                 user-1                      user-1 privileged mode
+           --warnings-as-errors[=<nr>[-<nr>],...]
+                                           treat all or specific warnings as errors
+      
+      Long options, starting with --, may be abbreviated.  The argument separator
+      character '=' is only used for long options, and should be omitted when the
+      option argument is specified separately.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Tools/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "src/CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-nzwup5"
+      binary: "D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-nzwup5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Ctc1766 -v -g3 -O0 "
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_LINK_SEARCH_START_STATIC: "TRUE"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/CMakeScratch/TryCompile-nzwup5'
+        
+        Run Build Command(s): c:/Tools/ninja-win/ninja.exe -v cmTC_1a862
+        [1/2] C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc.exe   -Ctc1766 -v -g3 -O0 -o CMakeFiles\\cmTC_1a862.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        FAILED: CMakeFiles/cmTC_1a862.dir/CMakeCXXCompilerABI.cpp.obj 
+        C:\\TASKING\\TriCore_v6.3r1\\ctc\\bin\\ctc.exe   -Ctc1766 -v -g3 -O0 -o CMakeFiles\\cmTC_1a862.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        ctc E200: commandline: option "-c": invalid number "C:\\Tools\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"\x0d
+        ctc E280: unknown option: "-Ctc1766"\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

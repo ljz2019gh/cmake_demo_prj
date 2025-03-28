@@ -1,0 +1,201 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-src-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/cpu",
+					"jsonFile" : "directory-src.cpu-97f0d364a30ce387874d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/cpu",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/itest",
+					"jsonFile" : "directory-src.itest-899dfef53c7fe85b9fbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/itest",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/cstart",
+					"jsonFile" : "directory-src.cstart-a75511372d7eeec21429.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/cstart",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "$(PROJECT_NAME)"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "demo_src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "cpu",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "itest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "cstart",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "cpu::@9184938e76febcd19f39",
+					"jsonFile" : "target-cpu-1508aac6883bc8d60e60.json",
+					"name" : "cpu",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "cstart::@f82ff03d1562f0c11c52",
+					"jsonFile" : "target-cstart-861805c91db1397aef22.json",
+					"name" : "cstart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "demo::@145eef247bfb46b6828c",
+					"jsonFile" : "target-demo-c795262888648e7827e7.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "itest::@c8daf1543b3509476829",
+					"jsonFile" : "target-itest-69d1604ee4432a836227.json",
+					"name" : "itest",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Repo/cmake_demo_prj/cmake_demo_prj/build",
+		"source" : "D:/Repo/cmake_demo_prj/cmake_demo_prj"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

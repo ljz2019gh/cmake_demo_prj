@@ -1,0 +1,14 @@
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/edit_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/CMakeFiles/rebuild_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/CMakeFiles/demo.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/CMakeFiles/edit_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/CMakeFiles/rebuild_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cpu/CMakeFiles/cpu.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cpu/CMakeFiles/edit_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cpu/CMakeFiles/rebuild_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/itest/CMakeFiles/itest.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/itest/CMakeFiles/edit_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/itest/CMakeFiles/rebuild_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cstart/CMakeFiles/cstart.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cstart/CMakeFiles/edit_cache.dir
+D:/Repo/cmake_demo_prj/cmake_demo_prj/build/src/cstart/CMakeFiles/rebuild_cache.dir
